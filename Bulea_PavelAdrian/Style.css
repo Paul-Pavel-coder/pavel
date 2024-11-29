@@ -1,0 +1,131 @@
+/* Stiluri generale pentru întreaga pagină */
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    padding: 50px;
+}
+
+/* Titlu */
+header {
+    background-color: #2F2F2F; 
+    padding: 20px;
+    text-align: center;
+    border: 8px solid black; 
+    margin-bottom: 30px; 
+}
+
+header h1 {
+    color: #808080;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 34px;
+    margin: 0;
+}
+
+/* Email */
+.email {
+    text-align: right;
+    padding: 30px;
+}
+
+.email a {
+    color: orange;
+    text-decoration: underline;
+    font-size: 30px; 
+}
+
+/* Secțiunea combinată pentru Structura rețelei și Caracteristicile conexiunii */
+.network-and-connection-info {
+    background-color: #D3D3D3;
+    padding: 20px;
+    border: 2px solid purple;
+    margin: 20px; 
+    text-align: left;
+}
+
+.network-and-connection-info h2 {
+    color: purple;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.network-and-connection-info .network-image {
+    width: 50%; 
+    border-radius: 10px;
+    margin: 10px auto; 
+    display: block;
+}
+
+/* Lista pentru Caracteristicile conexiunii */
+.connection-details {
+    list-style-position: inside;
+    color: black;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.connection-details li {
+    margin: 5px 0;
+}
+
+/* Utilizarea resurselor (slideshow) */
+.resources-info {
+    text-align: left;
+    padding: 20px;
+}
+
+.resources-info h2 {
+    color: purple;
+    text-decoration: underline;
+}
+
+.resources-info .images-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.resources-info img {
+    width: 33%;
+    border-radius: 10px;
+    height: auto;
+    opacity: 1; 
+    transition: opacity 1s ease-in-out; 
+}
+
+/* Specificații tehnice */
+.specifications {
+    padding: 20px;
+}
+
+.specifications h2 {
+    color: purple;
+    text-decoration: underline;
+}
+
+table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #A9A9A9; 
+    border: 2px solid orange; 
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid orange;
+}
+
+th {
+    font-style: italic;
+    text-decoration: underline;
+    color: yellow; 
+}
+
+td {
+    background-color: #A9A9A9;
+    color: black;
+}
